@@ -1,27 +1,55 @@
-# Essentials
+# Task Mate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Task Mate is a task management application built with Angular. It helps you organize, track, and manage your daily tasks efficiently.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Follow these steps to set up and run Task Mate locally:
 
-## Code scaffolding
+### Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd TaskMate-App
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Build
+### Development Server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Start the development server:
+```bash
+ng serve
+```
+Navigate to `http://localhost:4200/` in your browser. The app will reload automatically if you make changes to the source files.
 
-## Running unit tests
+## Available Commands
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Generate a new component:**
+  ```bash
+  ng generate component component-name
+  ```
+- **Build the project:**
+  ```bash
+  ng build
+  ```
+- **Run unit tests:**
+  ```bash
+  ng test
+  ```
+- **Run end-to-end tests:**
+  ```bash
+  ng e2e
+  ```
 
-## Running end-to-end tests
+## Learn More
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+For more information on Angular CLI, use:
+```bash
+ng help
+```
+Or visit the [Angular CLI Documentation](https://angular.io/cli).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
